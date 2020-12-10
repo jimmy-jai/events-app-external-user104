@@ -40,6 +40,7 @@ const urlencodedParser = bodyParser.urlencoded({ extended: false });
 
 // defines a route that receives the request to /
 app.get('/', (req, res) => {
+    // add comment
     // make a request to the backend microservice using the request package
     // the URL for the backend service should be set in configuration 
     // using an environment variable. Here, the variable is passed 
